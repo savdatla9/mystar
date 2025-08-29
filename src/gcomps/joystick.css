@@ -1,0 +1,27 @@
+body {
+    padding: 32px;
+    overflow: hidden;
+}
+
+.controller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 300px;
+    padding: 48px;
+    border-style: solid;
+    border-color: black;
+}
+
+.App {
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    /* background-image: url(https://images.unsplash.com/photo-1534503442463-e0ddba45cf4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80); */
+}
