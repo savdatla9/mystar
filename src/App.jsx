@@ -17,7 +17,7 @@ function App() {
     <>
       <Header />
 
-      <div style={{marginTop: '4em', textAlign: 'center'}}>
+      <div style={{marginTop: '4.5em'}}>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

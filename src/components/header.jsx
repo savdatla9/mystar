@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
 import './header.css';
@@ -19,7 +18,7 @@ function Header() {
     return (
         <Navbar collapseOnSelect className='h-body' expand="lg" bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="/" style={{fontSize: '28px'}}>S.A.V.D</Navbar.Brand>
+                <Navbar.Brand href="/" style={{fontSize: '28px', fontWeight: 800}}>S.A.V.D</Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 
@@ -27,13 +26,13 @@ function Header() {
                     <Nav className="me-auto">&nbsp;</Nav>
 
                     <Nav>
-                        <Nav.Link href="/projects">Projects</Nav.Link>
+                        <Nav.Link href="/projects"><i className="pi pi-folder-open"></i> Projects</Nav.Link>
 
-                        <Nav.Link href="/about">About Me</Nav.Link>
+                        <Nav.Link href="/about"><i className="pi pi-user"></i> About Me</Nav.Link>
 
-                        <Nav.Link href="/upcoming">Upcoming</Nav.Link>
+                        <Nav.Link href="/upcoming"><i className="pi pi-bullseye"></i> Upcoming</Nav.Link>
 
-                        <Nav.Link href="/contact">Contact Me</Nav.Link>
+                        <Nav.Link href="/contact"><i className="pi pi-inbox"></i> Contact Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

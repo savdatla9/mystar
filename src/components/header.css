@@ -3,5 +3,5 @@
     top: 0px !important;
     position: fixed !important;
     left: 0px;
-    background-color: transparent !important;
+    z-index: 10;
 };
