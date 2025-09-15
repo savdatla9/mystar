@@ -5,11 +5,12 @@ import Homescene from './components/home_3d';
 const Home = () => {
     return (
         <div>
-            <h1 style={{fontSize: '40px'}}>Hi there, Myself <br/> .Sai Akhil Varma Datla. </h1>
+            <title>Welcome </title>
+            <h1 style={{fontSize: '40px', textAlign:'center'}}>Hi there, Myself <br/> .Sai Akhil Varma Datla. </h1>
             
             <br/>
             
-            <ul style={{fontSize: '21px'}}> 
+            <ul style={{fontSize: '21px', background:'#00000015', width: '95%', marginLeft: '2.5%'}}> 
                 <li>I'm <b>React JS Web</b> Developer mostly. But worked on React Native Mobile, Three JS Web, Node JS - Rest API's as well.</li>
                 
                 <li>Learning Unity AR Course with <strong>C&nbsp;#</strong> language, UnReal Engine with only no-coding & Next JS Framework.</li> 

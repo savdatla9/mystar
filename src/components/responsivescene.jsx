@@ -6,9 +6,9 @@ export default function ResponsiveZoom() {
 
     useEffect(() => {
         if (size.width < 600) {
-            camera.zoom = 0.75; // Zooms out for small screens
+            camera.zoom = 0.5; // Zooms out for small screens
         } else {
-            camera.zoom = 1;
+            camera.zoom = 0.8;
         };
         
         camera.updateProjectionMatrix();
