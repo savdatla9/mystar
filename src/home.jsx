@@ -1,16 +1,17 @@
-import React from 'react';
-
-import Homescene from './components/home_3d';
+// import Homescene from './components/home_3d';
+// import Squares from './components/squareBack';
+import Galaxy from "./components/galaxyBack";
 
 const Home = () => {
     return (
         <div>
             <title>Welcome </title>
+
             <h1 style={{fontSize: '40px', textAlign:'center'}}>Hi there, Myself <br/> .Sai Akhil Varma Datla. </h1>
             
             <br/>
             
-            <ul style={{fontSize: '21px', background:'#00000015', width: '95%', marginLeft: '2.5%'}}> 
+            <ul style={{fontSize: '21px', width: '95%', marginLeft: '2.5%'}}> 
                 <li>I'm <b>React JS Web</b> Developer mostly. But worked on React Native Mobile, Three JS Web, Node JS - Rest API's as well.</li>
                 
                 <li>Learning Unity AR Course with <strong>C&nbsp;#</strong> language, UnReal Engine with only no-coding & Next JS Framework.</li> 
@@ -21,10 +22,25 @@ const Home = () => {
                 {/* <li>Certified in Three Js course in Three JS journey.</li> */}
             </ul>
 
-            <p></p>
+            {/* <p></p> */}
 
-            <div style={{position: 'fixed', top: 0, height: '98vh', width: '100%', zIndex: -1}}>
-                <Homescene />
+            <div style={{position: 'fixed', top: 0, height: '100vh', width: '100%', zIndex: -1}}>
+                {/* <Squares 
+                    speed={0.25} 
+                    squareSize={25}
+                    direction='diagonal' // up, down, left, right, diagonal
+                    borderColor='#7cfc00'
+                    hoverFillColor='#dcdcdc'
+                /> */}
+
+                <Galaxy 
+                    mouseRepulsion={true}
+                    mouseInteraction={true}
+                    density={1.5}
+                    glowIntensity={0.5}
+                    saturation={0.5}
+                    hueShift={240}
+                />
             </div>
         </div>
     );

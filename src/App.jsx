@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router";
 
 import Header from "./components/header";
+import RaceCar from './games/dodgecubes';
 import Projects from './projects';
 import Contact from './contact';
 import PHome from './pokemons';
@@ -25,6 +26,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/upcoming" element={<Extras />} />
+          <Route path="/Game/DodgeCubes" element={<RaceCar />} />
           <Route path="/pokemons" element={<PHome />} />
         </Routes>
       </div>
