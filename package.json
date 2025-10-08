@@ -17,6 +17,7 @@
     "@react-three/postprocessing": "^3.0.4",
     "@react-three/xr": "^6.6.25",
     "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.12.2",
     "bootstrap": "^5.3.7",
     "firebase": "^12.1.0",
     "gsap": "^3.13.0",
