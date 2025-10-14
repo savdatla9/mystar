@@ -11,3 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+  background-color: #cccccc10 !important;
+}
